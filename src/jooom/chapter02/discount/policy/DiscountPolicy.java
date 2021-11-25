@@ -1,6 +1,9 @@
-package jooom.chapter02;
+package jooom.chapter02.discount.policy;
 
-import java.lang.reflect.Array;
+import jooom.chapter02.Money;
+import jooom.chapter02.Screening;
+import jooom.chapter02.discount.condition.DiscountCondition;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

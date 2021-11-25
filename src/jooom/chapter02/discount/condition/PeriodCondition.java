@@ -1,9 +1,12 @@
-package jooom.chapter02;
+package jooom.chapter02.discount.condition;
+
+import jooom.chapter02.Screening;
+import jooom.chapter02.discount.condition.DiscountCondition;
 
 import java.time.DayOfWeek;
 import java.time.LocalTime;
 
-public class PeriodCondition implements DiscountCondition{
+public class PeriodCondition implements DiscountCondition {
     private DayOfWeek dayOfWeek;
     private LocalTime startTime;
     private LocalTime endTime;

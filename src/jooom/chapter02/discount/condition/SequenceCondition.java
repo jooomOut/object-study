@@ -1,6 +1,9 @@
-package jooom.chapter02;
+package jooom.chapter02.discount.condition;
 
-public class SequenceCondition implements DiscountCondition{
+import jooom.chapter02.Screening;
+import jooom.chapter02.discount.condition.DiscountCondition;
+
+public class SequenceCondition implements DiscountCondition {
     private int sequence;
 
     public SequenceCondition(int sequence){

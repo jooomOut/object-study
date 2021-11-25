@@ -1,6 +1,7 @@
 package jooom.chapter02;
 
-import java.awt.*;
+import jooom.chapter02.discount.policy.DiscountPolicy;
+
 import java.time.Duration;
 
 public class Movie {
