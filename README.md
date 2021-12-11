@@ -1,4 +1,8 @@
 # object-study
-조영호님의 Object - 코드로 이해하는 객체지향 설계 책을 공부하고 정리하는 레포지토리 입니다.  
-내용 정리는 [Notion](https://soapy-trout-320.notion.site/Object-b7396ea63a9b417290fabf983fd9871a)
-에서 확인할 수 있습니다.
+Object - 코드로 이해하는 객체지향 설계
+
+[1장 객체, 설계](https://soapy-trout-320.notion.site/01-a92eff271f5a452ebed4bec90d81053f)  
+[2장 객체지향 프로그래밍](https://soapy-trout-320.notion.site/02-2071a8c1d5cf45b3b722fc31af73844e)  
+[3장 역할, 책임, 협력](https://soapy-trout-320.notion.site/03-54f69e85871d40368179c9a074509152)  
+[4장 설계 품질과 트레이드오프](https://soapy-trout-320.notion.site/4-227a16bdba924b0a8dd9ba02fc35fe77)
+
