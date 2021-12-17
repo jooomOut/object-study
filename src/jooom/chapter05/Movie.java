@@ -1,8 +1,5 @@
 package jooom.chapter05;
 
-import jooom.chapter05.discount.condition.DiscountCondition;
-import jooom.chapter05.discount.policy.DiscountPolicy;
-
 import java.time.Duration;
 import java.util.List;
 
