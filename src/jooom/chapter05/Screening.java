@@ -19,6 +19,15 @@ public class Screening {
     public Money getMovieFee() {
         return movie.getFee();
     }
+
+    public int getSequence(){
+        return sequence;
+    }
+
+    public LocalDateTime getWhenScreened(){
+        return whenScreened;
+    }
+
     /*금액 계산은 Movie에게 위임한다.*/
     private Money calculateFee(int audienceCount){
         return movie.calculateMovieFee(this).times(audienceCount);

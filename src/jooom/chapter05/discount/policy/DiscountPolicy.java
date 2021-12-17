@@ -1,8 +1,8 @@
 package jooom.chapter05.discount.policy;
 
+import jooom.chapter05.DiscountCondition;
 import jooom.chapter05.Screening;
 import jooom.chapter05.Money;
-import jooom.chapter05.discount.condition.DiscountCondition;
 
 import java.util.ArrayList;
 import java.util.Arrays;
