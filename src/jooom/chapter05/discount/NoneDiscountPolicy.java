@@ -1,11 +1,12 @@
-package jooom.chapter05.discount.policy;
+package jooom.chapter05.discount;
 
+import jooom.chapter05.DiscountPolicy;
 import jooom.chapter05.Money;
-import jooom.chapter05.Screening;
 
 public class NoneDiscountPolicy extends DiscountPolicy {
+
     @Override
-    protected Money getDiscountAmount(Screening screening) {
+    protected Money calculateDiscountAmount() {
         return Money.ZERO;
     }
 }

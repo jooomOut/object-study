@@ -3,11 +3,12 @@ package jooom.chapter05;
 import java.time.Duration;
 import java.util.List;
 
-public abstract class Movie {
+public class Movie {
     private String title;
     private Duration runningTime;
     private Money fee;
     private List<DiscountCondition> discountConditions;
+    private DiscountPolicy discountPolicy;
 
 
     public Movie(String title, Duration runningTime, Money fee, List<DiscountCondition> discountConditions) {
@@ -28,10 +29,16 @@ public abstract class Movie {
         return fee;
     }
 
+    public void changeDiscountPolicy(DiscountPolicy newDiscountPolicy){
+        this.discountPolicy = newDiscountPolicy;
+    }
+
     private boolean isDiscountable(Screening screening){
         return discountConditions.stream().anyMatch(condition -> condition.isSatisfiedBy(screening));
     }
 
-    abstract protected Money calculateDiscountAmount();
+    private Money calculateDiscountAmount(){
+        return discountPolicy.calculateDiscountAmount();
+    }
 
 }
