@@ -1,6 +1,5 @@
-package jooom.chapter05.discount;
+package jooom.chapter05.discount.policy;
 
-import jooom.chapter05.DiscountPolicy;
 import jooom.chapter05.Money;
 
 public class PercentDiscountPolicy extends DiscountPolicy {
@@ -13,7 +12,7 @@ public class PercentDiscountPolicy extends DiscountPolicy {
     }
 
     @Override
-    protected Money calculateDiscountAmount() {
+    public Money calculateDiscountAmount() {
         return getFee().times(percent);
     }
 

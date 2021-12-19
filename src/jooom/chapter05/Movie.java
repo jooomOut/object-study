@@ -1,5 +1,8 @@
 package jooom.chapter05;
 
+import jooom.chapter05.discount.condition.DiscountCondition;
+import jooom.chapter05.discount.policy.DiscountPolicy;
+
 import java.time.Duration;
 import java.util.List;
 
@@ -10,12 +13,12 @@ public class Movie {
     private List<DiscountCondition> discountConditions;
     private DiscountPolicy discountPolicy;
 
-
-    public Movie(String title, Duration runningTime, Money fee, List<DiscountCondition> discountConditions) {
+    public Movie(String title, Duration runningTime, Money fee, List<DiscountCondition> discountConditions, DiscountPolicy discountPolicy) {
         this.title = title;
         this.runningTime = runningTime;
         this.fee = fee;
         this.discountConditions = discountConditions;
+        this.discountPolicy = discountPolicy;
     }
 
     public Money getFee(){

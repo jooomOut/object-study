@@ -1,4 +1,4 @@
-package jooom.chapter05;
+package jooom.chapter05.discount.condition;
 
 public enum DiscountConditionType {
     SEQUENCE,
