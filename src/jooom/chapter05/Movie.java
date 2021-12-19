@@ -32,6 +32,10 @@ public class Movie {
         return fee;
     }
 
+    public List<DiscountCondition> getDiscountConditions() {
+        return this.discountConditions;
+    }
+
     public void changeDiscountPolicy(DiscountPolicy newDiscountPolicy){
         this.discountPolicy = newDiscountPolicy;
     }
