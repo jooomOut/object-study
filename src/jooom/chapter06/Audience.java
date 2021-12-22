@@ -9,10 +9,6 @@ public class Audience {
         this.bag = bag;
     }
 
-    public Long setTicket(Ticket ticket){
-        return bag.setTicket(ticket);
-    }
-
     public Bag getBag(){
         return bag;
     }

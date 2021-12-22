@@ -11,6 +11,6 @@ public class Theater {
     * 디미터 법칙을 위반한 예시.
     * */
     public void enter(Audience audience){
-        ticketSeller.setTicket(audience);
+        ticketSeller.sellTo(audience);
     }
 }
