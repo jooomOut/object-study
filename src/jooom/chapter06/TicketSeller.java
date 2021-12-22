@@ -7,6 +7,10 @@ public class TicketSeller {
         this.ticketOffice = ticketOffice;
     }
 
+    public TicketOffice getTicketOffice(){
+        return this.ticketOffice;
+    }
+
     public void sellTo(Audience audience){
         ticketOffice.sellTicketTo(audience);
     }
