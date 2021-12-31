@@ -7,4 +7,5 @@ Object - 코드로 이해하는 객체지향 설계
 [4장 설계 품질과 트레이드오프](https://soapy-trout-320.notion.site/4-227a16bdba924b0a8dd9ba02fc35fe77)  
 [5장 책임 할당하기](https://soapy-trout-320.notion.site/5-15300c729a004323bec6275765ca6397)  
 [6장 메시지와 인터페이스](https://soapy-trout-320.notion.site/6-af42bd6083b54534882df73743ae3ba1)  
-[7장 객체 분해](https://soapy-trout-320.notion.site/7-f7148d0f025f4990bd208098aff2862a)
+[7장 객체 분해](https://soapy-trout-320.notion.site/7-f7148d0f025f4990bd208098aff2862a)  
+[8장 의존성 관리하기](https://soapy-trout-320.notion.site/8-6f9dfc63891e4c9db2971ccc3ebcdd5e)
