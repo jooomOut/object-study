@@ -15,6 +15,6 @@ public class Movie {
         this.title = title;
         this.runningTime = runningTime;
         this.fee = fee;
-        //this.discountPolicy = ServiceLocator.discountPolicy();
+        this.discountPolicy = ServiceLocator.discountPolicy();
     }
 }
