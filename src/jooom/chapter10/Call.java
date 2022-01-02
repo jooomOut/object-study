@@ -15,4 +15,7 @@ public class Call {
     public Duration getDuration(){
         return Duration.between(from, to);
     }
+    public LocalDateTime getFrom(){
+        return this.from;
+    }
 }
