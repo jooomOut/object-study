@@ -5,10 +5,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Phone {
-    private Money amount;
-    private Duration seconds;
-    private List<Call> calls = new ArrayList<>();
-    private double taxRate;
+    protected Money amount;
+    protected Duration seconds;
+    protected List<Call> calls = new ArrayList<>();
+    protected double taxRate;
 
     public Phone(Money amount, Duration seconds, double taxRate) {
         this.amount = amount;
