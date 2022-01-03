@@ -1,7 +1,5 @@
 package jooom.chapter11.phone;
 
-import jooom.chapter10.Money;
-
 import java.time.Duration;
 
 public class NightlyDiscountPolicy extends AbstractPhone {
@@ -23,5 +21,10 @@ public class NightlyDiscountPolicy extends AbstractPhone {
             return nightlyAmount.times(call.getDuration().getSeconds() / seconds.getSeconds());
         }
         return regularAmount.times(call.getDuration().getSeconds() / seconds.getSeconds());
+    }
+
+    @Override
+    protected Money afterCalculated(Money fee) {
+        return fee;
     }
 }

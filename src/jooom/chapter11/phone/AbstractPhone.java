@@ -1,7 +1,5 @@
 package jooom.chapter11.phone;
 
-import jooom.chapter10.Money;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,4 +14,5 @@ public abstract class AbstractPhone {
         return result;
     }
     abstract protected Money calculateCallFee(Call call);
+    abstract protected Money afterCalculated(Money fee);
 }

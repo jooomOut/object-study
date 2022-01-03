@@ -1,7 +1,5 @@
 package jooom.chapter11.phone;
 
-import jooom.chapter10.Money;
-
 import java.time.Duration;
 
 public class Phone extends AbstractPhone {
@@ -17,4 +15,10 @@ public class Phone extends AbstractPhone {
     protected Money calculateCallFee(Call call) {
         return amount.times(call.getDuration().getSeconds() / seconds.getSeconds());
     }
+
+    @Override
+    protected Money afterCalculated(Money fee) {
+        return fee;
+    }
+
 }
