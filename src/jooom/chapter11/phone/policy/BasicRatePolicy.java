@@ -2,7 +2,6 @@ package jooom.chapter11.phone.policy;
 
 import jooom.chapter11.phone.Call;
 import jooom.chapter11.phone.Money;
-import jooom.chapter11.phone.Phone;
 
 public abstract class BasicRatePolicy implements RatePolicy{
 
