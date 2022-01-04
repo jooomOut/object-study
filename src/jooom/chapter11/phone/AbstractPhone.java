@@ -13,6 +13,9 @@ public abstract class AbstractPhone {
         }
         return result;
     }
+    public List<Call> getCalls(){
+        return this.calls;
+    }
     abstract protected Money calculateCallFee(Call call);
     abstract protected Money afterCalculated(Money fee);
 }
