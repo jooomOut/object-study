@@ -9,5 +9,6 @@ Object - 코드로 이해하는 객체지향 설계
 [6장 메시지와 인터페이스](https://soapy-trout-320.notion.site/6-af42bd6083b54534882df73743ae3ba1)  
 [7장 객체 분해](https://soapy-trout-320.notion.site/7-f7148d0f025f4990bd208098aff2862a)  
 [8장 의존성 관리하기](https://soapy-trout-320.notion.site/8-6f9dfc63891e4c9db2971ccc3ebcdd5e)  
-[9장 유연한 설계](https://soapy-trout-320.notion.site/9-de7893a401454a45916164807a80df7e)
-
+[9장 유연한 설계](https://soapy-trout-320.notion.site/9-de7893a401454a45916164807a80df7e)  
+[10장 상속과 코드 재사용](https://soapy-trout-320.notion.site/10-eee378d839d44186aa7bcb3c9cbf15ad)  
+[11장 합성과 유연한 설계](https://soapy-trout-320.notion.site/11-7565f3f4745841ca93980993c13be569)
