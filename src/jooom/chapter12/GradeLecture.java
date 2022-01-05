@@ -1,5 +1,6 @@
 package jooom.chapter12;
 
+import java.security.PublicKey;
 import java.util.List;
 
 import static java.util.stream.Collectors.joining;
@@ -15,6 +16,22 @@ public class GradeLecture extends Lecture {
     @Override
     public String evaluate(){
         return super.evaluate() + ", " + gradesStatistics();
+    }
+
+    public double average(String name){
+        return grades.stream()
+                .filter(grade -> grade.isName(name))
+                .findFirst()
+                .map(this::gradeAverage)
+                .orElse(0d);
+    }
+
+    private double gradeAverage(Grade grade){
+        return getScores().stream()
+                .filter(grade::include)
+                .mapToInt(Integer::intValue)
+                .average()
+                .orElse(0);
     }
 
     private String gradesStatistics(){
