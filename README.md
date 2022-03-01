@@ -11,4 +11,5 @@ Object - 코드로 이해하는 객체지향 설계
 [8장 의존성 관리하기](https://soapy-trout-320.notion.site/8-6f9dfc63891e4c9db2971ccc3ebcdd5e)  
 [9장 유연한 설계](https://soapy-trout-320.notion.site/9-de7893a401454a45916164807a80df7e)  
 [10장 상속과 코드 재사용](https://soapy-trout-320.notion.site/10-eee378d839d44186aa7bcb3c9cbf15ad)  
-[11장 합성과 유연한 설계](https://soapy-trout-320.notion.site/11-7565f3f4745841ca93980993c13be569)
+[11장 합성과 유연한 설계](https://soapy-trout-320.notion.site/11-7565f3f4745841ca93980993c13be569)  
+[12장 다형성](https://soapy-trout-320.notion.site/12-20da9adc504046608d66c274aab6361e)
