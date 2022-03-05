@@ -12,4 +12,6 @@ Object - 코드로 이해하는 객체지향 설계
 [9장 유연한 설계](https://soapy-trout-320.notion.site/9-de7893a401454a45916164807a80df7e)  
 [10장 상속과 코드 재사용](https://soapy-trout-320.notion.site/10-eee378d839d44186aa7bcb3c9cbf15ad)  
 [11장 합성과 유연한 설계](https://soapy-trout-320.notion.site/11-7565f3f4745841ca93980993c13be569)  
-[12장 다형성](https://soapy-trout-320.notion.site/12-20da9adc504046608d66c274aab6361e)
+[12장 다형성](https://soapy-trout-320.notion.site/12-20da9adc504046608d66c274aab6361e)  
+[13장 서브 클래싱과 서브 타이핑](https://soapy-trout-320.notion.site/13-e8955ce0cf7042ae95cf119554822057)  
+[14장 일관성 있는 협력](https://soapy-trout-320.notion.site/14-abb7ad38776b4c2ab23adebda12285fa)
