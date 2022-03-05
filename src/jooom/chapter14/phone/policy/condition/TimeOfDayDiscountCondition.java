@@ -1,12 +1,10 @@
-package jooom.chapter14.phone.policy;
+package jooom.chapter14.phone.policy.condition;
 
 import jooom.chapter14.phone.Call;
-import jooom.chapter14.phone.Money;
+import jooom.chapter14.phone.policy.DateTimeInterval;
 
-import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 

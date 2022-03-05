@@ -1,13 +1,14 @@
-package jooom.chapter14.phone.policy;
+package jooom.chapter14.phone.policy.condition;
 
 import jooom.chapter14.phone.Call;
+import jooom.chapter14.phone.policy.DateTimeInterval;
 
 import java.time.Duration;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class DurationFeeCondition implements FeeCondition{
+public class DurationFeeCondition implements FeeCondition {
     private Duration from;
     private Duration to;
 

@@ -2,6 +2,7 @@ package jooom.chapter14.phone.policy;
 
 import jooom.chapter14.phone.Call;
 import jooom.chapter14.phone.Money;
+import jooom.chapter14.phone.policy.condition.FeeCondition;
 
 public class FeeRule {
     private FeeCondition feeCondition;

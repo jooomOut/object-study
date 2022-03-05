@@ -1,6 +1,7 @@
-package jooom.chapter14.phone.policy;
+package jooom.chapter14.phone.policy.condition;
 
 import jooom.chapter14.phone.Call;
+import jooom.chapter14.phone.policy.DateTimeInterval;
 
 import java.util.List;
 
